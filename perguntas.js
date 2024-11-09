@@ -24,7 +24,7 @@ criaCartao(
 
 criaCartao(
     'Geometria',
-    'Qual é o resultado aproximado obtido quando dividimos o comprimento/perímetro de uma circunferência pelo seu diâmetro?',
+    'Qual é o resultado aproximado obtido quando dividimos o comprimento (perímetro) de uma circunferência pelo seu diâmetro?',
     '3,14...'
 )
 
