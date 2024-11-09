@@ -24,7 +24,7 @@ criaCartao(
 
 criaCartao(
     'Geometria',
-    'Qual é o resultado aproximado obtido quando dividimos o comprimento (perímetro) de uma circunferência pelo seu diâmetro?',
+    'Qual é o resultado aproximado obtido quando dividimos o comprimento/perímetro de uma circunferência pelo seu diâmetro?',
     '3,14...'
 )
 
@@ -102,8 +102,8 @@ criaCartao(
 
 criaCartao(
     'Mecânica',
-    'O que é velocidade média?',
-    'A velocidade média de um corpo é a distância que ele percorre por unidade de tempo.'
+    'O que é velocidade?',
+    'A velocidade de um corpo é a distância que ele percorre por unidade de tempo.'
 )
 
 

@@ -60,6 +60,8 @@ body {
 .cartão__conteúdo__resposta p {
     color: var(--card-back-color);
     font-weight: 700;
+    margin: 0; /* Remove qualquer margem que possa interferir */
+    text-align: center; /* Garante que o texto dentro de <p> seja centralizado */
 }
 
 .cartão.active .cartão__conteúdo {
@@ -68,10 +70,12 @@ body {
 
 .cartão__conteúdo__pergunta,
 .cartão__conteúdo__resposta {
+   
     backface-visibility: hidden;
     position: absolute;
     height: 100%;
     width: 100%;
+    padding: 1rem; /* Adicione algum padding se desejar espaço extra */
     box-sizing: border-box;
 }
 
@@ -79,6 +83,10 @@ body {
     transform: rotateY(180deg);
     background-color: rgba(0, 244, 191, 0.2);
     border: 4px solid var(--card-back-color);
+    display: flex; /* Aplica flexbox ao contêiner da resposta */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    height: 100%; /* Garante que o contêiner ocupe toda a altura disponível */
 }
 
 
