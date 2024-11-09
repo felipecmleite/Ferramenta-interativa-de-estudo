@@ -102,8 +102,8 @@ criaCartao(
 
 criaCartao(
     'Mecânica',
-    'O que é velocidade?',
-    'A velocidade de um corpo é a distância que ele percorre por unidade de tempo.'
+    'O que é velocidade média?',
+    'A velocidade média de um corpo é a distância que ele percorre por unidade de tempo.'
 )
 
 
